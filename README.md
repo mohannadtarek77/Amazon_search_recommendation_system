@@ -13,7 +13,7 @@ This project is a **Neural Collaborative Filtering-based recommendation system**
 * **Goal**: Recommend software based on user preferences, engagement, and review behavior.
 * **Dataset**:
 
-  * Source: UCSD Amazon Software Reviews (McAuley Lab)
+  * Source: UCSD Amazon Software Reviews (McAuley Lab) https://huggingface.co/datasets/McAuley-Lab/Amazon-Reviews-2023
   * Features: `rating`, `user_id`, `item_id`, `timestamp`
   * Filtered users with ≥10 reviews and items with ≥5 reviews
   * Chronological split (Train/Val/Test: 70/15/15) with unseen samples removed
